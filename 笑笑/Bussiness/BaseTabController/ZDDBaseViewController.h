@@ -14,10 +14,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong, readonly) ASTableNode *tableNode;
 
+
+//是否隐藏导航栏 默认不隐藏
+@property (nonatomic, assign) BOOL hiddenNavBar;
+//是否需要下拉刷新 默认不需要
 @property (nonatomic, assign) BOOL showRefrehHeader;
+//是否需要上拉刷新 默认不需要
 @property (nonatomic, assign) BOOL showRefrehFooter;
 
-//添加tableNode
+//添加tableNode，默认没有添加
 - (void)addTableNode;
 
 //下拉刷新

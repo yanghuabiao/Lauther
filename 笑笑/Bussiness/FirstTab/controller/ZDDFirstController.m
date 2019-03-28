@@ -35,8 +35,6 @@
     
 }
 
-
-
 - (NSInteger)tableNode:(ASTableNode *)tableNode numberOfRowsInSection:(NSInteger)section {
     return self.dataArr.count;
 }

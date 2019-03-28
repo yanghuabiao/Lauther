@@ -7,8 +7,10 @@
 //
 
 #import "ZDDBaseViewController.h"
+
 #import <MJRefresh/MJRefresh.h>
 
+#import "UINavigationController+FDFullscreenPopGesture.h"
 
 
 @interface ZDDBaseViewController ()
@@ -56,6 +58,10 @@
 - (void)footerRefresh {
     
     
+}
+
+- (void)setHiddenNavBar:(BOOL)hiddenNavBar {
+    self.fd_prefersNavigationBarHidden = hiddenNavBar;
 }
 
 - (void)setShowRefrehHeader:(BOOL)showRefrehHeader {

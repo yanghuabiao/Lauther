@@ -9,6 +9,7 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import "ZDDFileModel.h"
 
 
 #import "MFNetworkManager.h"
@@ -28,6 +29,8 @@
 #import "UIColor+ZDDColor.h"
 #import "ZDDThemeConfiguration.h"
 #import "UIView+ZDD.h"
+
+
 
 
 

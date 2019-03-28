@@ -44,6 +44,8 @@
 		37642217224CD79A00357E5B /* ZDDSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642216224CD79A00357E5B /* ZDDSecondController.m */; };
 		3764221A224CD7AA00357E5B /* ZDDFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642219224CD7AA00357E5B /* ZDDFirstController.m */; };
 		3764221D224CD7BD00357E5B /* ZDDThridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3764221C224CD7BD00357E5B /* ZDDThridController.m */; };
+		37E6A119224D09A60056CB8C /* ZDDFistListCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E6A118224D09A60056CB8C /* ZDDFistListCellNode.m */; };
+		37E6A11C224D0C0C0056CB8C /* ZDDFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E6A11B224D0C0C0056CB8C /* ZDDFileModel.m */; };
 		94644878784C21C6A210539C /* libPods-笑笑.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B434BE16EB49747D1E1B8D /* libPods-笑笑.a */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +144,10 @@
 		3764221B224CD7BD00357E5B /* ZDDThridController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDThridController.h; sourceTree = "<group>"; };
 		3764221C224CD7BD00357E5B /* ZDDThridController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDThridController.m; sourceTree = "<group>"; };
 		37E6A116224CFE250056CB8C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		37E6A117224D09A60056CB8C /* ZDDFistListCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDFistListCellNode.h; sourceTree = "<group>"; };
+		37E6A118224D09A60056CB8C /* ZDDFistListCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDFistListCellNode.m; sourceTree = "<group>"; };
+		37E6A11A224D0C0C0056CB8C /* ZDDFileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDFileModel.h; sourceTree = "<group>"; };
+		37E6A11B224D0C0C0056CB8C /* ZDDFileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDFileModel.m; sourceTree = "<group>"; };
 		658C6B93D12A1822C681DB5B /* Pods-笑笑.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-笑笑.debug.xcconfig"; path = "Pods/Target Support Files/Pods-笑笑/Pods-笑笑.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -297,6 +303,8 @@
 		3764219D224CD5CD00357E5B /* model */ = {
 			isa = PBXGroup;
 			children = (
+				37E6A11A224D0C0C0056CB8C /* ZDDFileModel.h */,
+				37E6A11B224D0C0C0056CB8C /* ZDDFileModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -304,6 +312,8 @@
 		3764219E224CD5CD00357E5B /* view */ = {
 			isa = PBXGroup;
 			children = (
+				37E6A117224D09A60056CB8C /* ZDDFistListCellNode.h */,
+				37E6A118224D09A60056CB8C /* ZDDFistListCellNode.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -717,6 +727,8 @@
 				376421F0224CD65600357E5B /* UIColor+ZDDColor.m in Sources */,
 				376421F2224CD65600357E5B /* TEMPKeyConfiguration.m in Sources */,
 				37642206224CD69800357E5B /* TEMPSDKManager.m in Sources */,
+				37E6A119224D09A60056CB8C /* ZDDFistListCellNode.m in Sources */,
+				37E6A11C224D0C0C0056CB8C /* ZDDFileModel.m in Sources */,
 				376421EC224CD65600357E5B /* NSString+Regex.m in Sources */,
 				376421F5224CD65600357E5B /* NSArray+HYBUnicodeReadable.m in Sources */,
 				3764221D224CD7BD00357E5B /* ZDDThridController.m in Sources */,
