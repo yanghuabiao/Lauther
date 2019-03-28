@@ -360,6 +360,9 @@ PODS:
   - Texture/Video (2.8):
     - Texture/Core
   - YYCache (1.0.4)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
   - YYImage/Core (1.0.4)
@@ -387,6 +390,7 @@ DEPENDENCIES:
   - QMUIKit
   - SuperPlayer
   - Texture
+  - YYCategories
   - YYWebImage
 
 SPEC REPOS:
@@ -419,6 +423,7 @@ SPEC REPOS:
     - SuperPlayer
     - Texture
     - YYCache
+    - YYCategories
     - YYImage
     - YYWebImage
 
@@ -451,9 +456,10 @@ SPEC CHECKSUMS:
   SuperPlayer: 6249e97781920ebaf2cd27e3aec8542a369b10a3
   Texture: fc6e0157201f3a6e503d364c147b1872e365cef4
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: a0537514a4ec8442b30c7a3918670486df659f00
+PODFILE CHECKSUM: 9684a8e1768b3effb1f316f3f86840697f28e36c
 
 COCOAPODS: 1.5.3

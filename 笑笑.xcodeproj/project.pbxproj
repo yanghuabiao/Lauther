@@ -15,6 +15,36 @@
 		37642174224CCF2200357E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642173224CCF2200357E5B /* main.m */; };
 		3764217E224CCF2200357E5B /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3764217D224CCF2200357E5B /* __Tests.m */; };
 		37642189224CCF2200357E5B /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642188224CCF2200357E5B /* __UITests.m */; };
+		376421E6224CD65600357E5B /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421B7224CD65600357E5B /* UIImage+Blur.m */; };
+		376421E7224CD65600357E5B /* ASButtonNode+LHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421B9224CD65600357E5B /* ASButtonNode+LHExtension.m */; };
+		376421E8224CD65600357E5B /* UIView+LH.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421BA224CD65600357E5B /* UIView+LH.m */; };
+		376421E9224CD65600357E5B /* UIView+ZDD.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421BB224CD65600357E5B /* UIView+ZDD.m */; };
+		376421EA224CD65600357E5B /* NSMutableDictionary+Attributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421BD224CD65600357E5B /* NSMutableDictionary+Attributes.m */; };
+		376421EB224CD65600357E5B /* NSMutableAttributedString+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421BE224CD65600357E5B /* NSMutableAttributedString+Chain.m */; };
+		376421EC224CD65600357E5B /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421C4224CD65600357E5B /* NSString+Regex.m */; };
+		376421ED224CD65600357E5B /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421C5224CD65600357E5B /* UIColor+CustomColors.m */; };
+		376421EE224CD65600357E5B /* UIView+ZDD.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421C7224CD65600357E5B /* UIView+ZDD.m */; };
+		376421EF224CD65600357E5B /* ZDDThemeConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421C9224CD65600357E5B /* ZDDThemeConfiguration.m */; };
+		376421F0224CD65600357E5B /* UIColor+ZDDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421CC224CD65600357E5B /* UIColor+ZDDColor.m */; };
+		376421F1224CD65600357E5B /* ZDDNotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421CF224CD65600357E5B /* ZDDNotificationName.m */; };
+		376421F2224CD65600357E5B /* TEMPKeyConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421D2224CD65600357E5B /* TEMPKeyConfiguration.m */; };
+		376421F3224CD65600357E5B /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421D6224CD65600357E5B /* UINavigationController+FDFullscreenPopGesture.m */; };
+		376421F4224CD65600357E5B /* ZDDPhotoBrowseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421DC224CD65600357E5B /* ZDDPhotoBrowseView.m */; };
+		376421F5224CD65600357E5B /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421DF224CD65600357E5B /* NSArray+HYBUnicodeReadable.m */; };
+		376421F6224CD65600357E5B /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421E0224CD65600357E5B /* NSDictionary+HYBUnicodeReadable.m */; };
+		376421F7224CD65600357E5B /* NSSet+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421E1224CD65600357E5B /* NSSet+HYBUnicodeReadable.m */; };
+		376421F8224CD65600357E5B /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421E3224CD65600357E5B /* Foundation+Log.m */; };
+		37642206224CD69800357E5B /* TEMPSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421FA224CD69800357E5B /* TEMPSDKManager.m */; };
+		37642207224CD69800357E5B /* TEMPLaunchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 376421FD224CD69800357E5B /* TEMPLaunchManager.m */; };
+		37642208224CD69800357E5B /* TEMPAppDelegate+BackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642203224CD69800357E5B /* TEMPAppDelegate+BackgroundTask.m */; };
+		37642209224CD69800357E5B /* TEMPAppDelegate+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642204224CD69800357E5B /* TEMPAppDelegate+OpenURL.m */; };
+		3764220A224CD69800357E5B /* TEMPAppDelegate+PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642205224CD69800357E5B /* TEMPAppDelegate+PushService.m */; };
+		37642210224CD6E000357E5B /* ZDDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3764220D224CD6E000357E5B /* ZDDTabBarController.m */; };
+		37642211224CD6E000357E5B /* ZDDMenuBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3764220E224CD6E000357E5B /* ZDDMenuBaseNavController.m */; };
+		37642214224CD77C00357E5B /* ZDDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642213224CD77C00357E5B /* ZDDBaseViewController.m */; };
+		37642217224CD79A00357E5B /* ZDDSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642216224CD79A00357E5B /* ZDDSecondController.m */; };
+		3764221A224CD7AA00357E5B /* ZDDFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642219224CD7AA00357E5B /* ZDDFirstController.m */; };
+		3764221D224CD7BD00357E5B /* ZDDThridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3764221C224CD7BD00357E5B /* ZDDThridController.m */; };
 		94644878784C21C6A210539C /* libPods-笑笑.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B434BE16EB49747D1E1B8D /* libPods-笑笑.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +84,66 @@
 		37642184224CCF2200357E5B /* 笑笑UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "笑笑UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37642188224CCF2200357E5B /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		3764218A224CCF2200357E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376421B7224CD65600357E5B /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		376421B9224CD65600357E5B /* ASButtonNode+LHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASButtonNode+LHExtension.m"; sourceTree = "<group>"; };
+		376421BA224CD65600357E5B /* UIView+LH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LH.m"; sourceTree = "<group>"; };
+		376421BB224CD65600357E5B /* UIView+ZDD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZDD.m"; sourceTree = "<group>"; };
+		376421BC224CD65600357E5B /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
+		376421BD224CD65600357E5B /* NSMutableDictionary+Attributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Attributes.m"; sourceTree = "<group>"; };
+		376421BE224CD65600357E5B /* NSMutableAttributedString+Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Chain.m"; sourceTree = "<group>"; };
+		376421BF224CD65600357E5B /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		376421C0224CD65600357E5B /* ASButtonNode+LHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASButtonNode+LHExtension.h"; sourceTree = "<group>"; };
+		376421C1224CD65600357E5B /* UIView+ZDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZDD.h"; sourceTree = "<group>"; };
+		376421C2224CD65600357E5B /* UIView+LH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LH.h"; sourceTree = "<group>"; };
+		376421C3224CD65600357E5B /* NSMutableDictionary+Attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Attributes.h"; sourceTree = "<group>"; };
+		376421C4224CD65600357E5B /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		376421C5224CD65600357E5B /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		376421C6224CD65600357E5B /* NSMutableAttributedString+Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Chain.h"; sourceTree = "<group>"; };
+		376421C7224CD65600357E5B /* UIView+ZDD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZDD.m"; sourceTree = "<group>"; };
+		376421C9224CD65600357E5B /* ZDDThemeConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDDThemeConfiguration.m; sourceTree = "<group>"; };
+		376421CA224CD65600357E5B /* ZDDThemeConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDDThemeConfiguration.h; sourceTree = "<group>"; };
+		376421CC224CD65600357E5B /* UIColor+ZDDColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZDDColor.m"; sourceTree = "<group>"; };
+		376421CD224CD65600357E5B /* UIColor+ZDDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZDDColor.h"; sourceTree = "<group>"; };
+		376421CF224CD65600357E5B /* ZDDNotificationName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDDNotificationName.m; sourceTree = "<group>"; };
+		376421D0224CD65600357E5B /* ZDDNotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDDNotificationName.h; sourceTree = "<group>"; };
+		376421D2224CD65600357E5B /* TEMPKeyConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEMPKeyConfiguration.m; sourceTree = "<group>"; };
+		376421D3224CD65600357E5B /* TEMPKeyConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEMPKeyConfiguration.h; sourceTree = "<group>"; };
+		376421D5224CD65600357E5B /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		376421D6224CD65600357E5B /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		376421D8224CD65600357E5B /* TEMPMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEMPMacro.h; sourceTree = "<group>"; };
+		376421D9224CD65600357E5B /* UIView+ZDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZDD.h"; sourceTree = "<group>"; };
+		376421DA224CD65600357E5B /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		376421DC224CD65600357E5B /* ZDDPhotoBrowseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDDPhotoBrowseView.m; sourceTree = "<group>"; };
+		376421DD224CD65600357E5B /* ZDDPhotoBrowseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDDPhotoBrowseView.h; sourceTree = "<group>"; };
+		376421DF224CD65600357E5B /* NSArray+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		376421E0224CD65600357E5B /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		376421E1224CD65600357E5B /* NSSet+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		376421E2224CD65600357E5B /* NSArray+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		376421E3224CD65600357E5B /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		376421E4224CD65600357E5B /* NSDictionary+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		376421E5224CD65600357E5B /* NSSet+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		376421FA224CD69800357E5B /* TEMPSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEMPSDKManager.m; sourceTree = "<group>"; };
+		376421FB224CD69800357E5B /* TEMPSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEMPSDKManager.h; sourceTree = "<group>"; };
+		376421FD224CD69800357E5B /* TEMPLaunchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEMPLaunchManager.m; sourceTree = "<group>"; };
+		376421FE224CD69800357E5B /* TEMPLaunchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEMPLaunchManager.h; sourceTree = "<group>"; };
+		37642200224CD69800357E5B /* TEMPAppDelegate+BackgroundTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TEMPAppDelegate+BackgroundTask.h"; sourceTree = "<group>"; };
+		37642201224CD69800357E5B /* TEMPAppDelegate+OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TEMPAppDelegate+OpenURL.h"; sourceTree = "<group>"; };
+		37642202224CD69800357E5B /* TEMPAppDelegate+PushService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TEMPAppDelegate+PushService.h"; sourceTree = "<group>"; };
+		37642203224CD69800357E5B /* TEMPAppDelegate+BackgroundTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TEMPAppDelegate+BackgroundTask.m"; sourceTree = "<group>"; };
+		37642204224CD69800357E5B /* TEMPAppDelegate+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TEMPAppDelegate+OpenURL.m"; sourceTree = "<group>"; };
+		37642205224CD69800357E5B /* TEMPAppDelegate+PushService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TEMPAppDelegate+PushService.m"; sourceTree = "<group>"; };
+		3764220C224CD6E000357E5B /* ZDDMenuBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDDMenuBaseNavController.h; sourceTree = "<group>"; };
+		3764220D224CD6E000357E5B /* ZDDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDDTabBarController.m; sourceTree = "<group>"; };
+		3764220E224CD6E000357E5B /* ZDDMenuBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDDMenuBaseNavController.m; sourceTree = "<group>"; };
+		3764220F224CD6E000357E5B /* ZDDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDDTabBarController.h; sourceTree = "<group>"; };
+		37642212224CD77C00357E5B /* ZDDBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDBaseViewController.h; sourceTree = "<group>"; };
+		37642213224CD77C00357E5B /* ZDDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDBaseViewController.m; sourceTree = "<group>"; };
+		37642215224CD79A00357E5B /* ZDDSecondController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDSecondController.h; sourceTree = "<group>"; };
+		37642216224CD79A00357E5B /* ZDDSecondController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDSecondController.m; sourceTree = "<group>"; };
+		37642218224CD7AA00357E5B /* ZDDFirstController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDFirstController.h; sourceTree = "<group>"; };
+		37642219224CD7AA00357E5B /* ZDDFirstController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDFirstController.m; sourceTree = "<group>"; };
+		3764221B224CD7BD00357E5B /* ZDDThridController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDThridController.h; sourceTree = "<group>"; };
+		3764221C224CD7BD00357E5B /* ZDDThridController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDThridController.m; sourceTree = "<group>"; };
 		658C6B93D12A1822C681DB5B /* Pods-笑笑.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-笑笑.debug.xcconfig"; path = "Pods/Target Support Files/Pods-笑笑/Pods-笑笑.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,11 +198,16 @@
 		37642163224CCF2000357E5B /* 笑笑 */ = {
 			isa = PBXGroup;
 			children = (
+				37642196224CD5CD00357E5B /* Bussiness */,
 				37642164224CCF2000357E5B /* AppDelegate.h */,
 				37642165224CCF2000357E5B /* AppDelegate.m */,
 				37642167224CCF2000357E5B /* ViewController.h */,
 				37642168224CCF2000357E5B /* ViewController.m */,
 				3764216A224CCF2000357E5B /* Main.storyboard */,
+				376421FF224CD69800357E5B /* AppDelegateCategory */,
+				376421FC224CD69800357E5B /* Launch */,
+				376421F9224CD69800357E5B /* SDK */,
+				376421B6224CD65600357E5B /* Utils */,
 				3764216D224CCF2200357E5B /* Assets.xcassets */,
 				3764216F224CCF2200357E5B /* LaunchScreen.storyboard */,
 				37642172224CCF2200357E5B /* Info.plist */,
@@ -137,6 +232,277 @@
 				3764218A224CCF2200357E5B /* Info.plist */,
 			);
 			path = "笑笑UITests";
+			sourceTree = "<group>";
+		};
+		37642196224CD5CD00357E5B /* Bussiness */ = {
+			isa = PBXGroup;
+			children = (
+				3764220B224CD6E000357E5B /* BaseTabController */,
+				37642197224CD5CD00357E5B /* SecondTab */,
+				3764219B224CD5CD00357E5B /* FirstTab */,
+				3764219F224CD5CD00357E5B /* ThridTab */,
+			);
+			path = Bussiness;
+			sourceTree = "<group>";
+		};
+		37642197224CD5CD00357E5B /* SecondTab */ = {
+			isa = PBXGroup;
+			children = (
+				37642198224CD5CD00357E5B /* controller */,
+				37642199224CD5CD00357E5B /* model */,
+				3764219A224CD5CD00357E5B /* view */,
+			);
+			path = SecondTab;
+			sourceTree = "<group>";
+		};
+		37642198224CD5CD00357E5B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				37642215224CD79A00357E5B /* ZDDSecondController.h */,
+				37642216224CD79A00357E5B /* ZDDSecondController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		37642199224CD5CD00357E5B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3764219A224CD5CD00357E5B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3764219B224CD5CD00357E5B /* FirstTab */ = {
+			isa = PBXGroup;
+			children = (
+				3764219C224CD5CD00357E5B /* controller */,
+				3764219D224CD5CD00357E5B /* model */,
+				3764219E224CD5CD00357E5B /* view */,
+			);
+			path = FirstTab;
+			sourceTree = "<group>";
+		};
+		3764219C224CD5CD00357E5B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				37642218224CD7AA00357E5B /* ZDDFirstController.h */,
+				37642219224CD7AA00357E5B /* ZDDFirstController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		3764219D224CD5CD00357E5B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3764219E224CD5CD00357E5B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3764219F224CD5CD00357E5B /* ThridTab */ = {
+			isa = PBXGroup;
+			children = (
+				376421A0224CD5CD00357E5B /* controller */,
+				376421A1224CD5CD00357E5B /* model */,
+				376421A2224CD5CD00357E5B /* view */,
+			);
+			path = ThridTab;
+			sourceTree = "<group>";
+		};
+		376421A0224CD5CD00357E5B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3764221B224CD7BD00357E5B /* ZDDThridController.h */,
+				3764221C224CD7BD00357E5B /* ZDDThridController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		376421A1224CD5CD00357E5B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		376421A2224CD5CD00357E5B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		376421B6224CD65600357E5B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				376421B8224CD65600357E5B /* Category */,
+				376421D4224CD65600357E5B /* FullGes */,
+				376421D1224CD65600357E5B /* KeyConfiguration */,
+				376421D7224CD65600357E5B /* Macro */,
+				376421CE224CD65600357E5B /* Notification */,
+				376421C8224CD65600357E5B /* ThemeColorConfiguration */,
+				376421CB224CD65600357E5B /* UIColorCategory */,
+				376421DA224CD65600357E5B /* UIImage+Blur.h */,
+				376421B7224CD65600357E5B /* UIImage+Blur.m */,
+				376421D9224CD65600357E5B /* UIView+ZDD.h */,
+				376421C7224CD65600357E5B /* UIView+ZDD.m */,
+				376421DE224CD65600357E5B /* UnicodeLog */,
+				376421DB224CD65600357E5B /* ZDDPhotoBrowse */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		376421B8224CD65600357E5B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				376421B9224CD65600357E5B /* ASButtonNode+LHExtension.m */,
+				376421BA224CD65600357E5B /* UIView+LH.m */,
+				376421BB224CD65600357E5B /* UIView+ZDD.m */,
+				376421BC224CD65600357E5B /* NSString+Regex.h */,
+				376421BD224CD65600357E5B /* NSMutableDictionary+Attributes.m */,
+				376421BE224CD65600357E5B /* NSMutableAttributedString+Chain.m */,
+				376421BF224CD65600357E5B /* UIColor+CustomColors.h */,
+				376421C0224CD65600357E5B /* ASButtonNode+LHExtension.h */,
+				376421C1224CD65600357E5B /* UIView+ZDD.h */,
+				376421C2224CD65600357E5B /* UIView+LH.h */,
+				376421C3224CD65600357E5B /* NSMutableDictionary+Attributes.h */,
+				376421C4224CD65600357E5B /* NSString+Regex.m */,
+				376421C5224CD65600357E5B /* UIColor+CustomColors.m */,
+				376421C6224CD65600357E5B /* NSMutableAttributedString+Chain.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		376421C8224CD65600357E5B /* ThemeColorConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				376421C9224CD65600357E5B /* ZDDThemeConfiguration.m */,
+				376421CA224CD65600357E5B /* ZDDThemeConfiguration.h */,
+			);
+			path = ThemeColorConfiguration;
+			sourceTree = "<group>";
+		};
+		376421CB224CD65600357E5B /* UIColorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				376421CC224CD65600357E5B /* UIColor+ZDDColor.m */,
+				376421CD224CD65600357E5B /* UIColor+ZDDColor.h */,
+			);
+			path = UIColorCategory;
+			sourceTree = "<group>";
+		};
+		376421CE224CD65600357E5B /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				376421CF224CD65600357E5B /* ZDDNotificationName.m */,
+				376421D0224CD65600357E5B /* ZDDNotificationName.h */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		376421D1224CD65600357E5B /* KeyConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				376421D2224CD65600357E5B /* TEMPKeyConfiguration.m */,
+				376421D3224CD65600357E5B /* TEMPKeyConfiguration.h */,
+			);
+			path = KeyConfiguration;
+			sourceTree = "<group>";
+		};
+		376421D4224CD65600357E5B /* FullGes */ = {
+			isa = PBXGroup;
+			children = (
+				376421D5224CD65600357E5B /* UINavigationController+FDFullscreenPopGesture.h */,
+				376421D6224CD65600357E5B /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FullGes;
+			sourceTree = "<group>";
+		};
+		376421D7224CD65600357E5B /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				376421D8224CD65600357E5B /* TEMPMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		376421DB224CD65600357E5B /* ZDDPhotoBrowse */ = {
+			isa = PBXGroup;
+			children = (
+				376421DC224CD65600357E5B /* ZDDPhotoBrowseView.m */,
+				376421DD224CD65600357E5B /* ZDDPhotoBrowseView.h */,
+			);
+			path = ZDDPhotoBrowse;
+			sourceTree = "<group>";
+		};
+		376421DE224CD65600357E5B /* UnicodeLog */ = {
+			isa = PBXGroup;
+			children = (
+				376421DF224CD65600357E5B /* NSArray+HYBUnicodeReadable.m */,
+				376421E0224CD65600357E5B /* NSDictionary+HYBUnicodeReadable.m */,
+				376421E1224CD65600357E5B /* NSSet+HYBUnicodeReadable.m */,
+				376421E2224CD65600357E5B /* NSArray+HYBUnicodeReadable.h */,
+				376421E3224CD65600357E5B /* Foundation+Log.m */,
+				376421E4224CD65600357E5B /* NSDictionary+HYBUnicodeReadable.h */,
+				376421E5224CD65600357E5B /* NSSet+HYBUnicodeReadable.h */,
+			);
+			path = UnicodeLog;
+			sourceTree = "<group>";
+		};
+		376421F9224CD69800357E5B /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				376421FA224CD69800357E5B /* TEMPSDKManager.m */,
+				376421FB224CD69800357E5B /* TEMPSDKManager.h */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		376421FC224CD69800357E5B /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				376421FD224CD69800357E5B /* TEMPLaunchManager.m */,
+				376421FE224CD69800357E5B /* TEMPLaunchManager.h */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		376421FF224CD69800357E5B /* AppDelegateCategory */ = {
+			isa = PBXGroup;
+			children = (
+				37642200224CD69800357E5B /* TEMPAppDelegate+BackgroundTask.h */,
+				37642201224CD69800357E5B /* TEMPAppDelegate+OpenURL.h */,
+				37642202224CD69800357E5B /* TEMPAppDelegate+PushService.h */,
+				37642203224CD69800357E5B /* TEMPAppDelegate+BackgroundTask.m */,
+				37642204224CD69800357E5B /* TEMPAppDelegate+OpenURL.m */,
+				37642205224CD69800357E5B /* TEMPAppDelegate+PushService.m */,
+			);
+			path = AppDelegateCategory;
+			sourceTree = "<group>";
+		};
+		3764220B224CD6E000357E5B /* BaseTabController */ = {
+			isa = PBXGroup;
+			children = (
+				3764220C224CD6E000357E5B /* ZDDMenuBaseNavController.h */,
+				3764220E224CD6E000357E5B /* ZDDMenuBaseNavController.m */,
+				3764220F224CD6E000357E5B /* ZDDTabBarController.h */,
+				3764220D224CD6E000357E5B /* ZDDTabBarController.m */,
+				37642212224CD77C00357E5B /* ZDDBaseViewController.h */,
+				37642213224CD77C00357E5B /* ZDDBaseViewController.m */,
+			);
+			path = BaseTabController;
 			sourceTree = "<group>";
 		};
 		A6654959D9BF32C374844157 /* Frameworks */ = {
@@ -339,9 +705,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376421F7224CD65600357E5B /* NSSet+HYBUnicodeReadable.m in Sources */,
+				376421F3224CD65600357E5B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				37642169224CCF2000357E5B /* ViewController.m in Sources */,
+				37642217224CD79A00357E5B /* ZDDSecondController.m in Sources */,
+				376421EE224CD65600357E5B /* UIView+ZDD.m in Sources */,
 				37642174224CCF2200357E5B /* main.m in Sources */,
+				376421F8224CD65600357E5B /* Foundation+Log.m in Sources */,
+				376421E6224CD65600357E5B /* UIImage+Blur.m in Sources */,
+				376421E7224CD65600357E5B /* ASButtonNode+LHExtension.m in Sources */,
+				37642208224CD69800357E5B /* TEMPAppDelegate+BackgroundTask.m in Sources */,
+				376421F1224CD65600357E5B /* ZDDNotificationName.m in Sources */,
+				37642214224CD77C00357E5B /* ZDDBaseViewController.m in Sources */,
+				376421EA224CD65600357E5B /* NSMutableDictionary+Attributes.m in Sources */,
+				376421F0224CD65600357E5B /* UIColor+ZDDColor.m in Sources */,
+				376421F2224CD65600357E5B /* TEMPKeyConfiguration.m in Sources */,
+				37642206224CD69800357E5B /* TEMPSDKManager.m in Sources */,
+				376421EC224CD65600357E5B /* NSString+Regex.m in Sources */,
+				376421F5224CD65600357E5B /* NSArray+HYBUnicodeReadable.m in Sources */,
+				3764221D224CD7BD00357E5B /* ZDDThridController.m in Sources */,
+				376421E9224CD65600357E5B /* UIView+ZDD.m in Sources */,
+				376421E8224CD65600357E5B /* UIView+LH.m in Sources */,
+				37642209224CD69800357E5B /* TEMPAppDelegate+OpenURL.m in Sources */,
+				376421EF224CD65600357E5B /* ZDDThemeConfiguration.m in Sources */,
+				37642207224CD69800357E5B /* TEMPLaunchManager.m in Sources */,
+				37642211224CD6E000357E5B /* ZDDMenuBaseNavController.m in Sources */,
+				376421F4224CD65600357E5B /* ZDDPhotoBrowseView.m in Sources */,
+				37642210224CD6E000357E5B /* ZDDTabBarController.m in Sources */,
+				376421F6224CD65600357E5B /* NSDictionary+HYBUnicodeReadable.m in Sources */,
+				3764220A224CD69800357E5B /* TEMPAppDelegate+PushService.m in Sources */,
 				37642166224CCF2000357E5B /* AppDelegate.m in Sources */,
+				3764221A224CD7AA00357E5B /* ZDDFirstController.m in Sources */,
+				376421ED224CD65600357E5B /* UIColor+CustomColors.m in Sources */,
+				376421EB224CD65600357E5B /* NSMutableAttributedString+Chain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

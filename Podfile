@@ -23,6 +23,7 @@ pod 'DateTools'
 pod 'JXCategoryView'
 pod 'SuperPlayer'
 pod 'ESPictureBrowser'
+pod 'YYCategories'
 
 pod 'mob_smssdk'
 
