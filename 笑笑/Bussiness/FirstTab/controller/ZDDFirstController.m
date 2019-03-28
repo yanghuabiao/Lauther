@@ -10,23 +10,42 @@
 
 @interface ZDDFirstController ()
 
+/** <#class#> */
+@property (nonatomic, strong) NSMutableArray *dataArr;
+
+
 @end
 
 @implementation ZDDFirstController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self addTableNode];
+    self.showRefrehHeader = YES;;
+    self.showRefrehFooter = YES;
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)headerRefresh {
+    
 }
-*/
+
+- (void)footerRefresh {
+    
+}
+
+
+
+- (NSInteger)tableNode:(ASTableNode *)tableNode numberOfRowsInSection:(NSInteger)section {
+    return self.dataArr.count;
+}
+
+- (NSMutableArray *)dataArr {
+    if (!_dataArr) {
+        _dataArr = [NSMutableArray array];
+    }
+    return _dataArr;
+}
 
 @end

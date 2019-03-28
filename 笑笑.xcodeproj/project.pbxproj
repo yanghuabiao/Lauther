@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		37642166224CCF2000357E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642165224CCF2000357E5B /* AppDelegate.m */; };
-		37642169224CCF2000357E5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642168224CCF2000357E5B /* ViewController.m */; };
 		3764216C224CCF2000357E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3764216A224CCF2000357E5B /* Main.storyboard */; };
 		3764216E224CCF2200357E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3764216D224CCF2200357E5B /* Assets.xcassets */; };
 		37642171224CCF2200357E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3764216F224CCF2200357E5B /* LaunchScreen.storyboard */; };
@@ -71,8 +70,6 @@
 		37642161224CCF2000357E5B /* 笑笑.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "笑笑.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37642164224CCF2000357E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37642165224CCF2000357E5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		37642167224CCF2000357E5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		37642168224CCF2000357E5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3764216B224CCF2000357E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3764216D224CCF2200357E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37642170224CCF2200357E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -144,6 +141,7 @@
 		37642219224CD7AA00357E5B /* ZDDFirstController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDFirstController.m; sourceTree = "<group>"; };
 		3764221B224CD7BD00357E5B /* ZDDThridController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDThridController.h; sourceTree = "<group>"; };
 		3764221C224CD7BD00357E5B /* ZDDThridController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDThridController.m; sourceTree = "<group>"; };
+		37E6A116224CFE250056CB8C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		658C6B93D12A1822C681DB5B /* Pods-笑笑.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-笑笑.debug.xcconfig"; path = "Pods/Target Support Files/Pods-笑笑/Pods-笑笑.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -199,17 +197,16 @@
 			isa = PBXGroup;
 			children = (
 				37642196224CD5CD00357E5B /* Bussiness */,
-				37642164224CCF2000357E5B /* AppDelegate.h */,
-				37642165224CCF2000357E5B /* AppDelegate.m */,
-				37642167224CCF2000357E5B /* ViewController.h */,
-				37642168224CCF2000357E5B /* ViewController.m */,
-				3764216A224CCF2000357E5B /* Main.storyboard */,
 				376421FF224CD69800357E5B /* AppDelegateCategory */,
 				376421FC224CD69800357E5B /* Launch */,
 				376421F9224CD69800357E5B /* SDK */,
 				376421B6224CD65600357E5B /* Utils */,
 				3764216D224CCF2200357E5B /* Assets.xcassets */,
 				3764216F224CCF2200357E5B /* LaunchScreen.storyboard */,
+				37642164224CCF2000357E5B /* AppDelegate.h */,
+				37642165224CCF2000357E5B /* AppDelegate.m */,
+				37E6A116224CFE250056CB8C /* PrefixHeader.pch */,
+				3764216A224CCF2000357E5B /* Main.storyboard */,
 				37642172224CCF2200357E5B /* Info.plist */,
 				37642173224CCF2200357E5B /* main.m */,
 			);
@@ -707,7 +704,6 @@
 			files = (
 				376421F7224CD65600357E5B /* NSSet+HYBUnicodeReadable.m in Sources */,
 				376421F3224CD65600357E5B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
-				37642169224CCF2000357E5B /* ViewController.m in Sources */,
 				37642217224CD79A00357E5B /* ZDDSecondController.m in Sources */,
 				376421EE224CD65600357E5B /* UIView+ZDD.m in Sources */,
 				37642174224CCF2200357E5B /* main.m in Sources */,
@@ -911,6 +907,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96NZDADFWS;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = "笑笑/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -929,6 +926,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96NZDADFWS;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = "笑笑/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
