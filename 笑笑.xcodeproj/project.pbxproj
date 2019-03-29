@@ -484,8 +484,8 @@
 		376421FC224CD69800357E5B /* Launch */ = {
 			isa = PBXGroup;
 			children = (
-				376421FD224CD69800357E5B /* TEMPLaunchManager.m */,
 				376421FE224CD69800357E5B /* TEMPLaunchManager.h */,
+				376421FD224CD69800357E5B /* TEMPLaunchManager.m */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
