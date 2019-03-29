@@ -44,6 +44,8 @@
 		37642217224CD79A00357E5B /* ZDDSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642216224CD79A00357E5B /* ZDDSecondController.m */; };
 		3764221A224CD7AA00357E5B /* ZDDFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642219224CD7AA00357E5B /* ZDDFirstController.m */; };
 		3764221D224CD7BD00357E5B /* ZDDThridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3764221C224CD7BD00357E5B /* ZDDThridController.m */; };
+		376B5DF8224E2DB9000B6550 /* ZDDCommentLIstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 376B5DF7224E2DB9000B6550 /* ZDDCommentLIstView.m */; };
+		376B5DFB224E2E33000B6550 /* ZDDInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 376B5DFA224E2E33000B6550 /* ZDDInputView.m */; };
 		37E6A119224D09A60056CB8C /* ZDDFistListCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E6A118224D09A60056CB8C /* ZDDFistListCellNode.m */; };
 		37E6A11C224D0C0C0056CB8C /* ZDDFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E6A11B224D0C0C0056CB8C /* ZDDFileModel.m */; };
 		4A0B8F94224DBA3100B15CCB /* GODWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B8F93224DBA3100B15CCB /* GODWebViewController.m */; };
@@ -144,6 +146,10 @@
 		37642219224CD7AA00357E5B /* ZDDFirstController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDFirstController.m; sourceTree = "<group>"; };
 		3764221B224CD7BD00357E5B /* ZDDThridController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDThridController.h; sourceTree = "<group>"; };
 		3764221C224CD7BD00357E5B /* ZDDThridController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDThridController.m; sourceTree = "<group>"; };
+		376B5DF6224E2DB9000B6550 /* ZDDCommentLIstView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDCommentLIstView.h; sourceTree = "<group>"; };
+		376B5DF7224E2DB9000B6550 /* ZDDCommentLIstView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDCommentLIstView.m; sourceTree = "<group>"; };
+		376B5DF9224E2E33000B6550 /* ZDDInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDInputView.h; sourceTree = "<group>"; };
+		376B5DFA224E2E33000B6550 /* ZDDInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDInputView.m; sourceTree = "<group>"; };
 		37E6A116224CFE250056CB8C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		37E6A117224D09A60056CB8C /* ZDDFistListCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDFistListCellNode.h; sourceTree = "<group>"; };
 		37E6A118224D09A60056CB8C /* ZDDFistListCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDFistListCellNode.m; sourceTree = "<group>"; };
@@ -318,6 +324,10 @@
 			children = (
 				37E6A117224D09A60056CB8C /* ZDDFistListCellNode.h */,
 				37E6A118224D09A60056CB8C /* ZDDFistListCellNode.m */,
+				376B5DF6224E2DB9000B6550 /* ZDDCommentLIstView.h */,
+				376B5DF7224E2DB9000B6550 /* ZDDCommentLIstView.m */,
+				376B5DF9224E2E33000B6550 /* ZDDInputView.h */,
+				376B5DFA224E2E33000B6550 /* ZDDInputView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -742,6 +752,7 @@
 				376421F0224CD65600357E5B /* UIColor+ZDDColor.m in Sources */,
 				376421F2224CD65600357E5B /* TEMPKeyConfiguration.m in Sources */,
 				37642206224CD69800357E5B /* TEMPSDKManager.m in Sources */,
+				376B5DF8224E2DB9000B6550 /* ZDDCommentLIstView.m in Sources */,
 				37E6A119224D09A60056CB8C /* ZDDFistListCellNode.m in Sources */,
 				37E6A11C224D0C0C0056CB8C /* ZDDFileModel.m in Sources */,
 				376421EC224CD65600357E5B /* NSString+Regex.m in Sources */,
@@ -752,6 +763,7 @@
 				37642209224CD69800357E5B /* TEMPAppDelegate+OpenURL.m in Sources */,
 				376421EF224CD65600357E5B /* ZDDThemeConfiguration.m in Sources */,
 				4A0B8F94224DBA3100B15CCB /* GODWebViewController.m in Sources */,
+				376B5DFB224E2E33000B6550 /* ZDDInputView.m in Sources */,
 				37642207224CD69800357E5B /* TEMPLaunchManager.m in Sources */,
 				37642211224CD6E000357E5B /* ZDDNavController.m in Sources */,
 				376421F4224CD65600357E5B /* ZDDPhotoBrowseView.m in Sources */,

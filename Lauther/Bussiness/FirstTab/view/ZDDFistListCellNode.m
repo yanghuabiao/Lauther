@@ -11,7 +11,7 @@
 
 @interface ZDDFistListCellNode ()
 
-@property (nonatomic, strong) ASDisplayNode *backgroundNode;
+@property (nonatomic, strong) ASDisplayNode *lineNode;
 @property (nonatomic, strong) ASImageNode *commentImgNode;
 @property (nonatomic, strong) ASTextNode *commentCountNode;
 @property (nonatomic, strong) ASTextNode *titleNode;
@@ -35,11 +35,11 @@
         
         
         self.titleNode.attributedText = [NSMutableAttributedString lh_makeAttributedString:@"又被老妈唠叨我除了玩手机啥都不会干，，老妈唠叨够了转过头去看旁边偷笑的小侄女：“妞妞，你长大后可不能像你姑姑这样懒的讨人嫌。” 小侄女想都没想就说：“我真羡慕姑姑，跟猪似的，没心没肺活着不累。。 尼玛。。" attributes:^(NSMutableDictionary *make) {
-            make.lh_font([UIFont fontWithName:@"PingFangSC-Medium" size:18]).lh_color([UIColor whiteColor]);
+            make.lh_font([UIFont fontWithName:@"PingFangSC-Light" size:16]).lh_color(color(53, 64, 72, 1));
         }];
         
         self.commentCountNode.attributedText = [NSMutableAttributedString lh_makeAttributedString:@"1314520" attributes:^(NSMutableDictionary *make) {
-            make.lh_font([UIFont fontWithName:@"PingFangSC-Light" size:12]).lh_color([UIColor whiteColor]);
+            make.lh_font([UIFont fontWithName:@"PingFangSC-Light" size:12]).lh_color(color(53, 64, 72, 1));
         }];
         
     }
@@ -64,7 +64,8 @@
     }
     
     ASStackLayoutSpec *commentSpec = [ASStackLayoutSpec horizontalStackLayoutSpec];
-    commentSpec.spacing = 12;
+    commentSpec.spacing = 6;
+    commentSpec.alignItems = ASStackLayoutAlignItemsCenter;
     commentSpec.children = @[self.commentImgNode, self.commentCountNode];
     
     
@@ -76,10 +77,11 @@
         titleAndCommentSpec.children = @[self.titleNode, commentSpec];
     }
     
-    ASInsetLayoutSpec *contentInsetSpec = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(-10, -10, -10, -10) child:self.backgroundNode];
-    ASOverlayLayoutSpec *contentOverSpec = [ASOverlayLayoutSpec overlayLayoutSpecWithChild:titleAndCommentSpec overlay:contentInsetSpec];
+    ASStackLayoutSpec *lineSpec = [ASStackLayoutSpec verticalStackLayoutSpec];
+    lineSpec.spacing = 15;
+    lineSpec.children = @[titleAndCommentSpec, self.lineNode];
     
-    return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(30, 30, 10, 30) child:contentOverSpec];
+    return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(20, 20, 0, 20) child:lineSpec];
     
 }
 
@@ -91,17 +93,18 @@
 
 - (void)addCommentImgNode {
     self.commentImgNode = [ASImageNode new];
-    self.commentImgNode.image = [UIImage imageNamed:@""];
+    self.commentImgNode.image = [UIImage imageNamed:@"write"];
+    self.commentImgNode.style.preferredSize = CGSizeMake(15, 15);
+    self.commentCountNode.contentMode = UIViewContentModeScaleAspectFill;
     [self addSubnode:self.commentImgNode];
 }
 
 - (void)addBackgroundNode {
-    self.backgroundNode = [ASDisplayNode new];
-    self.backgroundNode.shadowColor = [UIColor qmui_colorWithHexString:@"354048"].CGColor;
-    self.backgroundNode.shadowOffset = CGSizeMake(.0f, 1.0f);
-    self.backgroundNode.shadowOpacity = .2f;
-    self.backgroundNode.backgroundColor = color(19, 142, 158, 1);
-    [self addSubnode:self.backgroundNode];
+    self.lineNode = [ASDisplayNode new];
+    self.lineNode.layerBacked = YES;
+    self.lineNode.backgroundColor = [UIColor qmui_colorWithHexString:@"EDEDED"];
+    self.lineNode.style.preferredSize = CGSizeMake(ScreenWidth - 40.0, 1.0f);
+    [self addSubnode:self.lineNode];
 }
 
 - (void)addTitleNode {

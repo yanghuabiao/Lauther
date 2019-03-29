@@ -42,10 +42,15 @@
     }
     
     [self.view addSubview:_tableNode.view];
+    
+    CGFloat bottomH = SafeAreaBottomHeight;
+    if (!self.tabBarController.hidesBottomBarWhenPushed) {
+        bottomH = SafeTabBarHeight;
+    }
     [_tableNode.view mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.mas_equalTo(0);
         make.top.mas_equalTo(0);
-        make.bottom.mas_equalTo(-SafeAreaBottomHeight);
+        make.bottom.mas_equalTo(-bottomH);
     }];
     
 }
