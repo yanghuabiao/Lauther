@@ -12,12 +12,17 @@
 #import "ZDDFileModel.h"
 
 
-#import "MFNetworkManager.h"
-#import "MFHUDManager.h"
-#import "NSObject+YYModel.h"
+//#import "MFNetworkManager.h"
+//#import "MFHUDManager.h"
+//#import "NSObject+YYModel.h"
+
+#import <YYModel/YYModel.h>
+#import <MFNetworkManager/MFNetworkManager.h>
+#import <MFHUDManager/MFHUDManager.h>
+//#import
 #import "TEMPMacro.h"
 #import "NSMutableAttributedString+Chain.h"
-#import "GODUserTool.h"
+//#import "GODUserTool.h"
 
 
 #import <Masonry.h>
@@ -29,7 +34,7 @@
 #import "UIColor+ZDDColor.h"
 #import "ZDDThemeConfiguration.h"
 #import "UIView+ZDD.h"
-
+#import "ZDDBaseViewController.h"
 
 
 

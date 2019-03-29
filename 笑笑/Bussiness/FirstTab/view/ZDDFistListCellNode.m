@@ -21,27 +21,27 @@
 
 @implementation ZDDFistListCellNode
 
-- (instancetype)init {
-    
-}
-
-
-
-- (void)addPicturesNodesWithFiles:(NSArray <ZDDFileModel *>*)files size:(CGSize)size {
-    CGSize itemSize = [self pictureSizeWithCount:files.count imageSize:size];
-    
-    [files enumerateObjectsUsingBlock:^(ZDDFileModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        ASNetworkImageNode *pictureNode = [ASNetworkImageNode new];
-        pictureNode.style.preferredSize = itemSize;
-        pictureNode.contentMode = UIViewContentModeScaleAspectFit;
-        pictureNode.backgroundColor = [UIColor lh_colorWithHexString:@"F8F8F8"];
-        pictureNode.defaultImage = [self placeholderImage];
-        [pictureNode setURL:[NSURL URLWithString:obj.fileUrl] size:obj.size];
-        [pictureNode addTarget:self action:@selector(onTouchPictureNode:) forControlEvents:ASControlNodeEventTouchUpInside];
-        [self addSubnode:pictureNode];
-        [self.picturesNodes addObject:pictureNode];
-    }];
-}
+//- (instancetype)init {
+//    
+//}
+//
+//
+//
+//- (void)addPicturesNodesWithFiles:(NSArray <ZDDFileModel *>*)files size:(CGSize)size {
+//    CGSize itemSize = [self pictureSizeWithCount:files.count imageSize:size];
+//    
+//    [files enumerateObjectsUsingBlock:^(ZDDFileModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//        ASNetworkImageNode *pictureNode = [ASNetworkImageNode new];
+//        pictureNode.style.preferredSize = itemSize;
+//        pictureNode.contentMode = UIViewContentModeScaleAspectFit;
+//        pictureNode.backgroundColor = [UIColor lh_colorWithHexString:@"F8F8F8"];
+//        pictureNode.defaultImage = [self placeholderImage];
+//        [pictureNode setURL:[NSURL URLWithString:obj.fileUrl] size:obj.size];
+//        [pictureNode addTarget:self action:@selector(onTouchPictureNode:) forControlEvents:ASControlNodeEventTouchUpInside];
+//        [self addSubnode:pictureNode];
+//        [self.picturesNodes addObject:pictureNode];
+//    }];
+//}
 
 - (CGSize)pictureSizeWithCount:(NSInteger)count imageSize:(CGSize)imageSize {
     CGSize itemSize = CGSizeZero;

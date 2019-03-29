@@ -3,8 +3,6 @@
 
 target '笑笑' do
 
-
-
 pod 'YYWebImage'
 pod 'QMUIKit'
 pod 'MFNetworkManager'
@@ -24,8 +22,9 @@ pod 'JXCategoryView'
 pod 'SuperPlayer'
 pod 'ESPictureBrowser'
 pod 'YYCategories'
-
-pod 'mob_smssdk'
-
-
+pod 'YYModel'
+pod 'Bugly',:inhibit_warnings => true
+pod 'XHLaunchAd'
+pod 'AVOSCloud'               # 数据存储、短信、云引擎调用等基础服务模块
+pod 'AVOSCloudIM'
 end

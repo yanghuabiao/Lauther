@@ -11,12 +11,11 @@
 
 #import "ZDDThemeConfiguration.h"
 #import "ZDDTabBarController.h"
-#import "GODWebViewController.h"
 
 #import <AVOSCloud/AVOSCloud.h>
 #import <XHLaunchAd.h>
 #import "UIColor+CustomColors.h"
-
+#import "GODWebViewController.h"
 
 @implementation TEMPLaunchManager
 + (instancetype)defaultManager {

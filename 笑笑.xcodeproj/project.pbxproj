@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37642166224CCF2000357E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642165224CCF2000357E5B /* AppDelegate.m */; };
+		37642166224CCF2000357E5B /* TEMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642165224CCF2000357E5B /* TEMPAppDelegate.m */; };
 		3764216C224CCF2000357E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3764216A224CCF2000357E5B /* Main.storyboard */; };
 		3764216E224CCF2200357E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3764216D224CCF2200357E5B /* Assets.xcassets */; };
 		37642171224CCF2200357E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3764216F224CCF2200357E5B /* LaunchScreen.storyboard */; };
@@ -46,6 +46,7 @@
 		3764221D224CD7BD00357E5B /* ZDDThridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3764221C224CD7BD00357E5B /* ZDDThridController.m */; };
 		37E6A119224D09A60056CB8C /* ZDDFistListCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E6A118224D09A60056CB8C /* ZDDFistListCellNode.m */; };
 		37E6A11C224D0C0C0056CB8C /* ZDDFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E6A11B224D0C0C0056CB8C /* ZDDFileModel.m */; };
+		4A0B8F94224DBA3100B15CCB /* GODWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B8F93224DBA3100B15CCB /* GODWebViewController.m */; };
 		94644878784C21C6A210539C /* libPods-笑笑.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B434BE16EB49747D1E1B8D /* libPods-笑笑.a */; };
 /* End PBXBuildFile section */
 
@@ -70,8 +71,8 @@
 		00B434BE16EB49747D1E1B8D /* libPods-笑笑.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-笑笑.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		013533592A6A9525649FD825 /* Pods-笑笑.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-笑笑.release.xcconfig"; path = "Pods/Target Support Files/Pods-笑笑/Pods-笑笑.release.xcconfig"; sourceTree = "<group>"; };
 		37642161224CCF2000357E5B /* 笑笑.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "笑笑.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37642164224CCF2000357E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		37642165224CCF2000357E5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37642164224CCF2000357E5B /* TEMPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEMPAppDelegate.h; sourceTree = "<group>"; };
+		37642165224CCF2000357E5B /* TEMPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEMPAppDelegate.m; sourceTree = "<group>"; };
 		3764216B224CCF2000357E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3764216D224CCF2200357E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37642170224CCF2200357E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -148,6 +149,8 @@
 		37E6A118224D09A60056CB8C /* ZDDFistListCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDFistListCellNode.m; sourceTree = "<group>"; };
 		37E6A11A224D0C0C0056CB8C /* ZDDFileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDFileModel.h; sourceTree = "<group>"; };
 		37E6A11B224D0C0C0056CB8C /* ZDDFileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDFileModel.m; sourceTree = "<group>"; };
+		4A0B8F92224DBA3100B15CCB /* GODWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GODWebViewController.h; sourceTree = "<group>"; };
+		4A0B8F93224DBA3100B15CCB /* GODWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GODWebViewController.m; sourceTree = "<group>"; };
 		658C6B93D12A1822C681DB5B /* Pods-笑笑.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-笑笑.debug.xcconfig"; path = "Pods/Target Support Files/Pods-笑笑/Pods-笑笑.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -202,6 +205,7 @@
 		37642163224CCF2000357E5B /* 笑笑 */ = {
 			isa = PBXGroup;
 			children = (
+				4A0B8F91224DBA1700B15CCB /* WebView */,
 				37642196224CD5CD00357E5B /* Bussiness */,
 				376421FF224CD69800357E5B /* AppDelegateCategory */,
 				376421FC224CD69800357E5B /* Launch */,
@@ -209,8 +213,8 @@
 				376421B6224CD65600357E5B /* Utils */,
 				3764216D224CCF2200357E5B /* Assets.xcassets */,
 				3764216F224CCF2200357E5B /* LaunchScreen.storyboard */,
-				37642164224CCF2000357E5B /* AppDelegate.h */,
-				37642165224CCF2000357E5B /* AppDelegate.m */,
+				37642164224CCF2000357E5B /* TEMPAppDelegate.h */,
+				37642165224CCF2000357E5B /* TEMPAppDelegate.m */,
 				37E6A116224CFE250056CB8C /* PrefixHeader.pch */,
 				3764216A224CCF2000357E5B /* Main.storyboard */,
 				37642172224CCF2200357E5B /* Info.plist */,
@@ -512,6 +516,15 @@
 			path = BaseTabController;
 			sourceTree = "<group>";
 		};
+		4A0B8F91224DBA1700B15CCB /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B8F92224DBA3100B15CCB /* GODWebViewController.h */,
+				4A0B8F93224DBA3100B15CCB /* GODWebViewController.m */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
 		A6654959D9BF32C374844157 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -663,7 +676,8 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-笑笑/Pods-笑笑-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-笑笑/Pods-笑笑-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
 				"${PODS_ROOT}/DateTools/DateTools/DateTools/DateTools.bundle",
 				"${PODS_ROOT}/MFHUDManager/Image/notice_type_error.png",
 				"${PODS_ROOT}/MFHUDManager/Image/notice_type_success.png",
@@ -674,6 +688,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVOSCloud_Art.inc",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/notice_type_error.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/notice_type_success.png",
@@ -684,7 +699,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-笑笑/Pods-笑笑-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-笑笑/Pods-笑笑-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E7E1AE1424D996325A44F665 /* [CP] Check Pods Manifest.lock */ = {
@@ -736,13 +751,14 @@
 				376421E8224CD65600357E5B /* UIView+LH.m in Sources */,
 				37642209224CD69800357E5B /* TEMPAppDelegate+OpenURL.m in Sources */,
 				376421EF224CD65600357E5B /* ZDDThemeConfiguration.m in Sources */,
+				4A0B8F94224DBA3100B15CCB /* GODWebViewController.m in Sources */,
 				37642207224CD69800357E5B /* TEMPLaunchManager.m in Sources */,
 				37642211224CD6E000357E5B /* ZDDMenuBaseNavController.m in Sources */,
 				376421F4224CD65600357E5B /* ZDDPhotoBrowseView.m in Sources */,
 				37642210224CD6E000357E5B /* ZDDTabBarController.m in Sources */,
 				376421F6224CD65600357E5B /* NSDictionary+HYBUnicodeReadable.m in Sources */,
 				3764220A224CD69800357E5B /* TEMPAppDelegate+PushService.m in Sources */,
-				37642166224CCF2000357E5B /* AppDelegate.m in Sources */,
+				37642166224CCF2000357E5B /* TEMPAppDelegate.m in Sources */,
 				3764221A224CD7AA00357E5B /* ZDDFirstController.m in Sources */,
 				376421ED224CD65600357E5B /* UIColor+CustomColors.m in Sources */,
 				376421EB224CD65600357E5B /* NSMutableAttributedString+Chain.m in Sources */,
