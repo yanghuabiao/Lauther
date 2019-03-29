@@ -39,7 +39,7 @@
 		37642209224CD69800357E5B /* TEMPAppDelegate+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642204224CD69800357E5B /* TEMPAppDelegate+OpenURL.m */; };
 		3764220A224CD69800357E5B /* TEMPAppDelegate+PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642205224CD69800357E5B /* TEMPAppDelegate+PushService.m */; };
 		37642210224CD6E000357E5B /* ZDDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3764220D224CD6E000357E5B /* ZDDTabBarController.m */; };
-		37642211224CD6E000357E5B /* ZDDMenuBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3764220E224CD6E000357E5B /* ZDDMenuBaseNavController.m */; };
+		37642211224CD6E000357E5B /* ZDDNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3764220E224CD6E000357E5B /* ZDDNavController.m */; };
 		37642214224CD77C00357E5B /* ZDDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642213224CD77C00357E5B /* ZDDBaseViewController.m */; };
 		37642217224CD79A00357E5B /* ZDDSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642216224CD79A00357E5B /* ZDDSecondController.m */; };
 		3764221A224CD7AA00357E5B /* ZDDFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642219224CD7AA00357E5B /* ZDDFirstController.m */; };
@@ -132,9 +132,9 @@
 		37642203224CD69800357E5B /* TEMPAppDelegate+BackgroundTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TEMPAppDelegate+BackgroundTask.m"; sourceTree = "<group>"; };
 		37642204224CD69800357E5B /* TEMPAppDelegate+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TEMPAppDelegate+OpenURL.m"; sourceTree = "<group>"; };
 		37642205224CD69800357E5B /* TEMPAppDelegate+PushService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TEMPAppDelegate+PushService.m"; sourceTree = "<group>"; };
-		3764220C224CD6E000357E5B /* ZDDMenuBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDDMenuBaseNavController.h; sourceTree = "<group>"; };
+		3764220C224CD6E000357E5B /* ZDDNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDDNavController.h; sourceTree = "<group>"; };
 		3764220D224CD6E000357E5B /* ZDDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDDTabBarController.m; sourceTree = "<group>"; };
-		3764220E224CD6E000357E5B /* ZDDMenuBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDDMenuBaseNavController.m; sourceTree = "<group>"; };
+		3764220E224CD6E000357E5B /* ZDDNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDDNavController.m; sourceTree = "<group>"; };
 		3764220F224CD6E000357E5B /* ZDDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDDTabBarController.h; sourceTree = "<group>"; };
 		37642212224CD77C00357E5B /* ZDDBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDBaseViewController.h; sourceTree = "<group>"; };
 		37642213224CD77C00357E5B /* ZDDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDBaseViewController.m; sourceTree = "<group>"; };
@@ -506,8 +506,8 @@
 		3764220B224CD6E000357E5B /* BaseTabController */ = {
 			isa = PBXGroup;
 			children = (
-				3764220C224CD6E000357E5B /* ZDDMenuBaseNavController.h */,
-				3764220E224CD6E000357E5B /* ZDDMenuBaseNavController.m */,
+				3764220C224CD6E000357E5B /* ZDDNavController.h */,
+				3764220E224CD6E000357E5B /* ZDDNavController.m */,
 				3764220F224CD6E000357E5B /* ZDDTabBarController.h */,
 				3764220D224CD6E000357E5B /* ZDDTabBarController.m */,
 				37642212224CD77C00357E5B /* ZDDBaseViewController.h */,
@@ -753,7 +753,7 @@
 				376421EF224CD65600357E5B /* ZDDThemeConfiguration.m in Sources */,
 				4A0B8F94224DBA3100B15CCB /* GODWebViewController.m in Sources */,
 				37642207224CD69800357E5B /* TEMPLaunchManager.m in Sources */,
-				37642211224CD6E000357E5B /* ZDDMenuBaseNavController.m in Sources */,
+				37642211224CD6E000357E5B /* ZDDNavController.m in Sources */,
 				376421F4224CD65600357E5B /* ZDDPhotoBrowseView.m in Sources */,
 				37642210224CD6E000357E5B /* ZDDTabBarController.m in Sources */,
 				376421F6224CD65600357E5B /* NSDictionary+HYBUnicodeReadable.m in Sources */,

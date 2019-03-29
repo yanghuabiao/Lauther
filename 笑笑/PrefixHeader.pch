@@ -14,11 +14,6 @@
 #import "NSObject+YYModel.h"
 #import "ZDDFileModel.h"
 
-
-//#import "MFNetworkManager.h"
-//#import "MFHUDManager.h"
-//#import "NSObject+YYModel.h"
-
 #import <YYModel/YYModel.h>
 #import <MFNetworkManager/MFNetworkManager.h>
 #import <MFHUDManager/MFHUDManager.h>

@@ -10,7 +10,7 @@
 #import "ZDDThemeConfiguration.h"
 #import "TEMPMacro.h"
 
-#import "ZDDMenuBaseNavController.h"
+#import "ZDDNavController.h"
 
 #import "ZDDThridController.h"
 #import "ZDDSecondController.h"
@@ -83,7 +83,7 @@ UITabBarControllerDelegate
         [vc.tabBarItem setImage:[[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
         [vc.tabBarItem setSelectedImage:[[UIImage imageNamed:selImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
     }
-    ZDDMenuBaseNavController *navVc = [[ZDDMenuBaseNavController alloc] initWithRootViewController:vc];
+    ZDDNavController *navVc = [[ZDDNavController alloc] initWithRootViewController:vc];
     [self addChildViewController:navVc];
 }
 

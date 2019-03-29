@@ -6,13 +6,13 @@
 //  Copyright © 2019 KWCP. All rights reserved.
 //
 
-#import "ZDDMenuBaseNavController.h"
+#import "ZDDNavController.h"
 
-@interface ZDDMenuBaseNavController ()<UINavigationControllerDelegate, UIGestureRecognizerDelegate>
+@interface ZDDNavController ()<UINavigationControllerDelegate, UIGestureRecognizerDelegate>
 @property (nonatomic ,strong) id popDelegate;
 @end
 
-@implementation ZDDMenuBaseNavController
+@implementation ZDDNavController
 
 // 设置导航栏的主题
 + (void)load {

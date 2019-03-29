@@ -11,37 +11,120 @@
 
 @interface ZDDFistListCellNode ()
 
-
+@property (nonatomic, strong) ASDisplayNode *backgroundNode;
+@property (nonatomic, strong) ASImageNode *commentImgNode;
+@property (nonatomic, strong) ASTextNode *commentCountNode;
+@property (nonatomic, strong) ASTextNode *titleNode;
 @property (nonatomic, strong) ASLayoutSpec *picturesLayout;
 
 @property (nonatomic, strong) NSMutableArray *picturesNodes;
-
 
 @end
 
 @implementation ZDDFistListCellNode
 
-//- (instancetype)init {
-//    
-//}
-//
-//
-//
-//- (void)addPicturesNodesWithFiles:(NSArray <ZDDFileModel *>*)files size:(CGSize)size {
-//    CGSize itemSize = [self pictureSizeWithCount:files.count imageSize:size];
-//    
-//    [files enumerateObjectsUsingBlock:^(ZDDFileModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-//        ASNetworkImageNode *pictureNode = [ASNetworkImageNode new];
-//        pictureNode.style.preferredSize = itemSize;
-//        pictureNode.contentMode = UIViewContentModeScaleAspectFit;
-//        pictureNode.backgroundColor = [UIColor lh_colorWithHexString:@"F8F8F8"];
-//        pictureNode.defaultImage = [self placeholderImage];
-//        [pictureNode setURL:[NSURL URLWithString:obj.fileUrl] size:obj.size];
-//        [pictureNode addTarget:self action:@selector(onTouchPictureNode:) forControlEvents:ASControlNodeEventTouchUpInside];
-//        [self addSubnode:pictureNode];
-//        [self.picturesNodes addObject:pictureNode];
-//    }];
-//}
+- (instancetype)init {
+    if (self = [super init]) {
+        
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+        
+        [self addBackgroundNode];
+        [self addCommentCountNode];
+        [self addCommentImgNode];
+        [self addTitleNode];
+        
+        
+        self.titleNode.attributedText = [NSMutableAttributedString lh_makeAttributedString:@"又被老妈唠叨我除了玩手机啥都不会干，，老妈唠叨够了转过头去看旁边偷笑的小侄女：“妞妞，你长大后可不能像你姑姑这样懒的讨人嫌。” 小侄女想都没想就说：“我真羡慕姑姑，跟猪似的，没心没肺活着不累。。 尼玛。。" attributes:^(NSMutableDictionary *make) {
+            make.lh_font([UIFont fontWithName:@"PingFangSC-Medium" size:18]).lh_color([UIColor whiteColor]);
+        }];
+        
+        self.commentCountNode.attributedText = [NSMutableAttributedString lh_makeAttributedString:@"1314520" attributes:^(NSMutableDictionary *make) {
+            make.lh_font([UIFont fontWithName:@"PingFangSC-Light" size:12]).lh_color([UIColor whiteColor]);
+        }];
+        
+    }
+    return self;
+}
+
+
+//点击图片
+- (void)onTouchPictureNode:(ASNetworkImageNode *)imgNode {
+    
+    
+    
+}
+
+
+- (ASLayoutSpec *)layoutSpecThatFits:(ASSizeRange)constrainedSize {
+    
+    ASStackLayoutSpec *titleAndImgSpec = [ASStackLayoutSpec verticalStackLayoutSpec];
+    if (self.picturesNodes.count) {
+        titleAndImgSpec.spacing = 15;
+        titleAndImgSpec.children = @[self.titleNode, self.picturesLayout];
+    }
+    
+    ASStackLayoutSpec *commentSpec = [ASStackLayoutSpec horizontalStackLayoutSpec];
+    commentSpec.spacing = 12;
+    commentSpec.children = @[self.commentImgNode, self.commentCountNode];
+    
+    
+    ASStackLayoutSpec *titleAndCommentSpec = [ASStackLayoutSpec verticalStackLayoutSpec];
+    titleAndCommentSpec.spacing = 20;
+    if (self.picturesNodes.count) {
+        titleAndCommentSpec.children = @[titleAndImgSpec, commentSpec];
+    }else {
+        titleAndCommentSpec.children = @[self.titleNode, commentSpec];
+    }
+    
+    ASInsetLayoutSpec *contentInsetSpec = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(-10, -10, -10, -10) child:self.backgroundNode];
+    ASOverlayLayoutSpec *contentOverSpec = [ASOverlayLayoutSpec overlayLayoutSpecWithChild:titleAndCommentSpec overlay:contentInsetSpec];
+    
+    return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(30, 30, 10, 30) child:contentOverSpec];
+    
+}
+
+
+- (void)addCommentCountNode {
+    self.commentCountNode = [ASTextNode new];
+    [self addSubnode:self.commentCountNode];
+}
+
+- (void)addCommentImgNode {
+    self.commentImgNode = [ASImageNode new];
+    self.commentImgNode.image = [UIImage imageNamed:@""];
+    [self addSubnode:self.commentImgNode];
+}
+
+- (void)addBackgroundNode {
+    self.backgroundNode = [ASDisplayNode new];
+    self.backgroundNode.shadowColor = [UIColor qmui_colorWithHexString:@"354048"].CGColor;
+    self.backgroundNode.shadowOffset = CGSizeMake(.0f, 1.0f);
+    self.backgroundNode.shadowOpacity = .2f;
+    self.backgroundNode.backgroundColor = color(19, 142, 158, 1);
+    [self addSubnode:self.backgroundNode];
+}
+
+- (void)addTitleNode {
+    self.titleNode = [ASTextNode new];
+    self.titleNode.style.maxWidth = ASDimensionMake(SCREENWIDTH - 60);
+    [self addSubnode:self.titleNode];
+}
+
+- (void)addPicturesNodesWithFiles:(NSArray <ZDDFileModel *>*)files size:(CGSize)size {
+    CGSize itemSize = [self pictureSizeWithCount:files.count imageSize:size];
+    
+    [files enumerateObjectsUsingBlock:^(ZDDFileModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        ASNetworkImageNode *pictureNode = [ASNetworkImageNode new];
+        pictureNode.style.preferredSize = itemSize;
+        pictureNode.contentMode = UIViewContentModeScaleAspectFit;
+        pictureNode.backgroundColor = [UIColor qmui_colorWithHexString:@"F8F8F8"];
+        pictureNode.defaultImage = [self placeholderImage];
+        pictureNode.URL = [NSURL URLWithString:obj.fileUrl];
+        [pictureNode addTarget:self action:@selector(onTouchPictureNode:) forControlEvents:ASControlNodeEventTouchUpInside];
+        [self addSubnode:pictureNode];
+        [self.picturesNodes addObject:pictureNode];
+    }];
+}
 
 - (CGSize)pictureSizeWithCount:(NSInteger)count imageSize:(CGSize)imageSize {
     CGSize itemSize = CGSizeZero;

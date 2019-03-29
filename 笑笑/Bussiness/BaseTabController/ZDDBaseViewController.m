@@ -74,29 +74,29 @@
                 [weakSelf headerRefresh];
             }];
             
-            NSMutableArray *idleImages = [NSMutableArray array];
-            for (NSUInteger i = 1; i <= 19; i++) {
-                UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"HAO-%@", @(i)]];
-                [idleImages addObject:image];
-            }
-            
-            [gifHeader setImages:idleImages forState:MJRefreshStateIdle];
-            
-            // 设置即将刷新状态的动画图片（一松开就会刷新的状态）
-            NSMutableArray *refreshingImages = [NSMutableArray array];
-            for (NSUInteger i = 4; i <= 19; i++) {
-                UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"HAO-%@", @(i)]];
-                [refreshingImages addObject:image];
-            }
-            [gifHeader setImages:refreshingImages forState:MJRefreshStatePulling];
-            
-            // 设置正在刷新状态的动画图片
-            [gifHeader setImages:refreshingImages forState:MJRefreshStateRefreshing];
-            
-            //隐藏时间
-            gifHeader.lastUpdatedTimeLabel.hidden = YES;
-            //隐藏状态
-            gifHeader.stateLabel.hidden = YES;
+//            NSMutableArray *idleImages = [NSMutableArray array];
+//            for (NSUInteger i = 1; i <= 19; i++) {
+//                UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"HAO-%@", @(i)]];
+//                [idleImages addObject:image];
+//            }
+//            
+//            [gifHeader setImages:idleImages forState:MJRefreshStateIdle];
+//            
+//            // 设置即将刷新状态的动画图片（一松开就会刷新的状态）
+//            NSMutableArray *refreshingImages = [NSMutableArray array];
+//            for (NSUInteger i = 4; i <= 19; i++) {
+//                UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"HAO-%@", @(i)]];
+//                [refreshingImages addObject:image];
+//            }
+//            [gifHeader setImages:refreshingImages forState:MJRefreshStatePulling];
+//            
+//            // 设置正在刷新状态的动画图片
+//            [gifHeader setImages:refreshingImages forState:MJRefreshStateRefreshing];
+//            
+//            //隐藏时间
+//            gifHeader.lastUpdatedTimeLabel.hidden = YES;
+//            //隐藏状态
+//            gifHeader.stateLabel.hidden = YES;
             
             
             _tableNode.view.mj_header = gifHeader;

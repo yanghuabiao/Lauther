@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZDDFileModel : NSObject
 
+/** <#class#> */
+@property (nonatomic, strong) NSString *fileUrl;
+@property (nonatomic, assign) CGFloat imgHeight;
+@property (nonatomic, assign) CGFloat imgWidth;
+
 @end
 
 NS_ASSUME_NONNULL_END
