@@ -9,9 +9,6 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#import "ZDDFileModel.h"
-
-
 #import "MFNetworkManager.h"
 #import "MFHUDManager.h"
 #import "NSObject+YYModel.h"
@@ -31,7 +28,7 @@
 #import "UIView+ZDD.h"
 
 
-
+#import "ZDDFileModel.h"
 
 
 #endif /* PrefixHeader_pch */
